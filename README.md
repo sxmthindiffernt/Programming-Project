@@ -9,17 +9,17 @@
 
 | # | Name | Student number | Primary responsibility |
 |---|------|----------------|------------------------|
-| 1 | _TODO_ | _TODO_ | Employee Management (`employees.c/.h`) |
-| 2 | _TODO_ | _TODO_ | Budget Management (`budget.c/.h`) |
-| 3 | _TODO_ | _TODO_ | Supplier Management (`suppliers.c/.h`) |
+| 1 | Veikko Ushona | 226038017 | Employee Management (`employees.c/.h`) |
+| 2 | Naholo Helena| 226059502 | Budget Management (`budget.c/.h`) |
+| 3 | Micheal Fillemon| 226142167 | Supplier Management (`suppliers.c/.h`) |
 | 4 | _TODO_ | _TODO_ | Asset Management (`assets.c/.h`) |
-| 5 | _TODO_ | _TODO_ | Reports (`reports.c/.h`) |
-| 6 | _TODO_ | _TODO_ | Functions, integration and validation (`main.c`, `utils.c/.h`) |
-| 7 | _TODO_ | _TODO_ | Testing, documentation and Git coordination |
+| 5 | George Vincent | 225142422 | Reports (`reports.c/.h`) |
+| 6 | Asino David | 226019241 | Functions, integration and validation (`main.c`, `utils.c/.h`) |
+| 7 | Otto Kapia | 223123382 | Testing, documentation and Git coordination |
 
 ## Project description
 
-_TODO: 2–3 sentences describing the MFMS and its purpose._
+MFMS is a menu-driven C application that helps a municipality manage employees, departmental budgets, suppliers and assets, and generate summary reports. It validates user input and is organised into separate modules developed collaboratively by a group of seven students. It is the foundation version of a system that will be extended in Project B.
 
 ## System features
 
@@ -54,7 +54,7 @@ mfms.exe        # Windows
 
 ## Individual responsibilities
 
-_TODO: each member lists the functions/modules they developed._
+ each member lists the functions/modules they developed._
 
 ## Project structure
 
