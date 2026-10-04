@@ -11,7 +11,7 @@
 | 1 | Veikko Ushona | 226038017 | Employee Management (`employees.c/.h`) |
 | 2 | Naholo Helena| 226059502 | Budget Management (`budget.c/.h`) |
 | 3 | Micheal Fillemon| 226142167 | Supplier Management (`suppliers.c/.h`) |
-| 4 | _TODO_ | _TODO_ | Asset Management (`assets.c/.h`) |
+| 4 | Petrus Hailula | 226062856 | Asset Management (`assets.c/.h`) |
 | 5 | George Vincent | 225142422 | Reports (`reports.c/.h`) |
 | 6 | Asino David | 226019241 | Functions, integration and validation (`main.c`, `utils.c/.h`) |
 | 7 | Otto Kapia | 223123382 | Testing, documentation and Git coordination |
