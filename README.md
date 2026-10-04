@@ -2,7 +2,6 @@
 
 **Course:** PAP521S – Programming in Practice
 **Project:** Project A – Foundation System
-**Group number:** _TODO_
 **Language:** ANSI C (C99) | **Tools:** VS Code, GCC, Git & GitHub
 
 ## Group members
