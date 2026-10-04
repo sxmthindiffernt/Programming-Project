@@ -3,6 +3,8 @@
 #include "supplier.h"
 #include "employees.h"
 #include "budget.h"
+#include "assets.h"
+#include "reports.h"
 
 void displayMainMenu(void);
 
@@ -31,11 +33,11 @@ int main(void)
                 break;
 
             case 4:
-                printf("\nAsset Management selected.\n");
+                assetMenu();
                 break;
 
             case 5:
-                printf("\nReports selected.\n");
+                reportsMenu();
                 break;
 
             case 6:

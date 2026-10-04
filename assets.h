@@ -1,5 +1,5 @@
 #ifndef ASSETS_H
-#define ASSETS_H
+#define assets_H
 
 #define MAX_ASSETS 100
 
@@ -13,8 +13,12 @@ typedef struct {
 
 } Asset;
 
+extern Asset assets[MAX_ASSETS];
+extern int assetCount;
+
 void addAsset(Asset assets[], int *count);
 void displayAssets(Asset assets[], int count);
 void searchAsset(Asset assets[], int count);
+void assetMenu(void);
 
 #endif

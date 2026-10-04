@@ -12,11 +12,13 @@ struct Employee
 
 };
 
+extern struct Employee employees[100];
+extern int employeeCount;
+
 void addEmployee();
 void displayEmployees();
 void searchEmployees();
 void employeeMenu();
 
 double calculateSalary(double basicSalary, double housingAllowance, double transportAllowance);
-int getValidPositiveInteger(const char prompt[]);
 #endif

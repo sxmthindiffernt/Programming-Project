@@ -3,6 +3,9 @@
 #include "supplier.h"
 #include "validation.h"
 
+Supplier suppliers[MAX_SUPPLIERS];
+int supplierCount = 0;  
+
 void addSupplier(Supplier suppliers[], int *count)
 {
     if (*count >= MAX_SUPPLIERS)
@@ -133,8 +136,6 @@ void compareSuppliers(Supplier suppliers[], int count)
 }
 void supplierMenu(void)
 {
-    Supplier suppliers[MAX_SUPPLIERS];
-    int supplierCount = 0;
     int choice;
 
     do

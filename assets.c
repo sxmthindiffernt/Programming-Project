@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 #include "assets.h"
+#include "validation.h"
+
+Asset assets[MAX_ASSETS];
+int assetCount = 0;
 
 void addAsset(Asset assets[], int *count)
 {
@@ -122,3 +126,42 @@ else
         printf("\nAsset not found.\n");
     }
 }
+void assetMenu(void)
+{
+    int choice;
+
+    do
+    {
+        printf("\n========================================\n");
+        printf("          ASSET MANAGEMENT\n");
+        printf("========================================\n");
+        printf("1. Add Asset\n");
+        printf("2. Display Assets\n");
+        printf("3. Search Asset\n");
+        printf("4. Return to Main Menu\n");
+        printf("========================================\n");
+
+        choice = getValidMenuChoice(1, 4);
+
+        switch (choice)
+        {
+            case 1:
+                addAsset(assets, &assetCount);
+                break;
+
+            case 2:
+                displayAssets(assets, assetCount);
+                break;
+
+            case 3:
+                searchAsset(assets, assetCount);
+                break;
+
+            case 4:
+                printf("\nReturning to Main Menu...\n");
+                break;
+        }
+
+    } while (choice != 4);
+}
+        

@@ -3,6 +3,9 @@
 #include "budget.h"
 #include "validation.h"
 
+Budget budgets[MAX_DEPARTMENTS];
+int budgetCount = 0;
+
 void calculateBudget(Budget * budget){
     budget->remainingBudget = budget->allocatedBudget - budget->expenditure;
     budget->isExceeded = (budget->expenditure > budget->allocatedBudget) ? 1 : 0;
@@ -51,8 +54,7 @@ void displayBudgets(const Budget budgets[], int count){
     
 }
 void budgetMenu(void){
-    Budget budgets[MAX_DEPARTMENTS];
-    int budgetCount = 0;
+   
     int choice;
 
     do{

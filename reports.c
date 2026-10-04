@@ -3,6 +3,7 @@
 #include "employees.h"
 #include "budget.h"
 #include "supplier.h"
+#include "assets.h"
 #include "validation.h"
 
 void employeeReport(void)
@@ -153,11 +154,23 @@ printf("\n========================================\n");
 
 void assetReport(void)
 {
-printf("\n========================================\n");
-printf(" ASSET REPORT\n");
-printf("========================================\n");
-printf("Asset Management module is still being integrated.\n");
-printf("========================================\n");
+    if (assetCount == 0) {
+        printf("\nNo asset data available for the report.\n");
+        return; 
+    }
+
+    float totalAssetValue = 0.0;
+    for (int i = 0; i < assetCount; i++)
+    {
+            totalAssetValue += assets[i].purchaseValue;
+    }
+
+    printf("\n================================================\n");
+    printf("             ASSET REPORT\n");
+    printf("================================================\n");
+    printf("Total Assets: %d\n", assetCount);
+    printf("Total Asset Value: N$%.2f\n", totalAssetValue);
+    printf("==============================================\n");
 }
 
 void reportsMenu(void)

@@ -13,6 +13,9 @@ typedef struct
     char Town[30];
 } Supplier;
 
+extern Supplier suppliers[MAX_SUPPLIERS];
+extern int supplierCount;
+
 void addSupplier(Supplier suppliers[], int *count);
 void displaySuppliers(Supplier suppliers[], int count);
 void searchSupplier(Supplier suppliers[], int count);
